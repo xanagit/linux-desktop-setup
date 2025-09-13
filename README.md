@@ -1,2 +1,2 @@
 # linux-desktop-setup
-Tools and applications installed
+Tools and applications initialisation
