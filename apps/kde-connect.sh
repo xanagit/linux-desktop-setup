@@ -1,4 +1,4 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install kdeconnect
+sudo apt install kdeconnect -y

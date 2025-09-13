@@ -10,6 +10,8 @@
 ../apps/libre-office.sh
 ../apps/obs-studio.sh
 ../apps/obsidian.sh
+../apps/proton-vpn.sh
+../apps/protonmail.sh
 ../apps/todoist.sh
 ../apps/vlc.sh
 ../apps/vs-code.sh
