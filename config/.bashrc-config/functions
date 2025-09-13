@@ -1,3 +1,18 @@
+
+# Function to get current Git branch (si dans un repo)
+git_branch() {
+  local branch
+  # vérifie si le dossier .git existe ou qu'on est dans un repo
+  if branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null); then
+    # si HEAD détaché, affiche commit court
+    if [ "$branch" = "HEAD" ]; then
+      branch="DETACHED@$(git rev-parse --short HEAD 2>/dev/null)"
+    fi
+    echo "~ ${branch}"
+  fi
+}
+
+
 # Create a desktop launcher for a web app
 web2app() {
   if [ "$#" -ne 3 ]; then

@@ -15,3 +15,5 @@ rm -rf iafonts.zip iaFonts
 
 fc-cache
 cd -
+
+sudo apt install fonts-powerline -y

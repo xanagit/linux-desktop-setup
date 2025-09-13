@@ -1,0 +1,20 @@
+# Technicolor dreams
+force_color_prompt=yes
+color_prompt=yes
+
+# Simple prompt with path in the window/pane title and caret for typing line
+# PS1=$'\uf0a9 '
+# PS1="\[\e]0;\w\a\]$PS1"
+
+local BLUE="\[\e[38;5;38m\]"
+local CYAN="\[\e[38;5;81m\]"
+local MAGENTA="\[\e[38;5;137m\]"
+local GREY="\[\e[38;5;244m\]"
+local RESET="\[\e[0m\]"
+
+PS1="${MAGENTA}\u${RESET}@${CYAN}\h${RESET} ${BLUE}\w${RESET} ${GREY}\$(git_branch)${RESET}\n${MAGENTA}❯ ${RESET}"
+
+# root
+if [ "$(id -u)" -eq 0 ]; then
+  PS1="${MAGENTA}\u${RESET}@${CYAN}\h${RESET} ${BLUE}\w${RESET} ${GREY}\$(git_branch)${RESET}\n${MAGENTA}# ${RESET}"
+fi

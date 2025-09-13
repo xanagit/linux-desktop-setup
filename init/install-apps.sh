@@ -2,16 +2,16 @@
 
 ../config/a-flatpak.sh
 
-../apps/brave/brave.sh
-../apps/brave/flameshot.sh
-../apps/brave/gimp.sh
-../apps/brave/intellij.sh
-../apps/brave/kde-connect.sh
-../apps/brave/libre-office.sh
-../apps/brave/obs-studio.sh
-../apps/brave/obsidian.sh
-../apps/brave/todoist.sh
-../apps/brave/vlc.sh
-../apps/brave/vs-code.sh
-../apps/brave/zed.sh
-../apps/brave/zoom.sh
+../apps/brave.sh
+../apps/flameshot.sh
+../apps/gimp.sh
+../apps/intellij.sh
+../apps/kde-connect.sh
+../apps/libre-office.sh
+../apps/obs-studio.sh
+../apps/obsidian.sh
+../apps/todoist.sh
+../apps/vlc.sh
+../apps/vs-code.sh
+../apps/zed.sh
+../apps/zoom.sh
