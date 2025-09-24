@@ -6,3 +6,4 @@
 ../utilities/gh-cli.sh
 ../utilities/neovim.sh
 ../utilities/ollama.sh
+../utilities/terraform.sh
