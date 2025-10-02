@@ -4,6 +4,7 @@
 ../utilities/eza.sh
 ../utilities/fuzzy-finder.sh
 ../utilities/gh-cli.sh
+../utilities/kubectl.sh
 ../utilities/mise.sh
 ../utilities/neovim.sh
 ../utilities/ollama.sh
