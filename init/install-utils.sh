@@ -10,4 +10,5 @@
 ../utilities/mise.sh
 ../utilities/neovim.sh
 ../utilities/ollama.sh
+../utilities/scw.sh
 ../utilities/terraform.sh
