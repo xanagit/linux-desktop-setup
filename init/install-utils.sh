@@ -1,5 +1,6 @@
 #!/bin/bash
 
+../utilities/argocd.sh
 ../utilities/docker.sh
 ../utilities/eza.sh
 ../utilities/fuzzy-finder.sh
